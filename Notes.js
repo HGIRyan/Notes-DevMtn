@@ -298,9 +298,170 @@ callback
                 -DELETE FROM [table]
                     WHERE [table] [operator] [Number]
 
-    
-    
-    
-    to-do
+        -InClass Practice
+                     DROP TABLE IF EXISTS account;
+
+                    CREATE TABLE account
+                    (
+                    -- id serial primary key
+                        id integer PRIMARY KEY autoincrement,
+                        name VARCHAR(25) NOT NULL,
+                        email text
+                    );
+
+                    insert into account
+                        (name, email)
+                    values
+                        ('Kenn', 'klambshine0@quantcast.com');
+                        -SQL-1-Afternoon
+                                                                                    /*create TABLE person 
+                                                            (
+                                                            person_id integer primary key autoincrement,
+                                                            Name text not null,
+                                                            Age integer not null,
+                                                            Height integer not null,
+                                                            City text not null,
+                                                            Favorite_color text not null
+                                                            )*/
+                                                            
+                                                            /*	insert into person (Name, Age, Height, City, Favorite_Color)
+                                                            values ('Ryan', 20,  140, 'Seattle', 'Green');
+                                                            
+                                                                insert into person (Name, Age, Height, City, Favorite_Color)
+                                                            values ('Michael', 28,  148, 'Seattle', 'Red');
+                                                            
+                                                                insert into person (Name, Age, Height, City, Favorite_Color)
+                                                            values ('Brittany', 30,  120, 'Seattle', 'Teal');
+                                                            
+                                                                insert into person (Name, Age, Height, City, Favorite_Color)
+                                                            values ('Tanner', 16,  138, 'Seattle', 'Blue');
+                                                            
+                                                                insert into person (Name, Age, Height, City, Favorite_Color)
+                                                            values ('Brandon', 31,  135, 'Salt Lake City', 'Yellow');	*/
+                                                            
+                                                            
+                                                                /*--select *
+                                                                --from person
+                                                                --order by height desc
+                                                                
+                                                                --select *
+                                                                --from person
+                                                                --order by height asc
+                                                                
+                                                                --select * 
+                                                                --from person
+                                                                --order by age desc
+                                                                
+                                                                --select * 
+                                                                --from person
+                                                                --where age > 20
+                                                                
+                                                                --select * 
+                                                                --from person
+                                                                --where age = 18
+                                                                
+                                                                --select *
+                                                                --from person 
+                                                                --where age between 20 and 30
+                                                                
+                                                                --select *
+                                                                --from person 
+                                                                --where age != 27
+                                                                
+                                                                --select *
+                                                                --from person
+                                                                --where favorite_color != 'Red'
+                                                                
+                                                                --select * 
+                                                                --from person 
+                                                                --where favorite_color != 'Red' and favorite_color != 'Blue'
+                                                                
+                                                                --select * 
+                                                                --from person
+                                                                --where favorite_color = 'Orange' or favorite_color = 'Green'
+                                                                
+                                                                --select *
+                                                                --from person
+                                                                --where favorite_color in ('Orange', 'Green', 'Blue')
+                                                                
+                                                                --select *
+                                                                --from person
+                                                                --where favorite_color in ('Yellow', 'Purple')
+                                                                
+                                                                /*create table Orders 
+                                                                (
+                                                                person_id integer primary key autoincrement,
+                                                                product_name text not null,
+                                                                product_price integer not null,
+                                                                quantity integer not null
+                                                                )	*/
+                                                                
+                                                                /*	insert into orders (product_name, product_price, quantity)
+                                                                values ('batteries', 22, 8);
+                                                                
+                                                                insert into orders (product_name, product_price, quantity)
+                                                                values ('Disney Princess', 242, 3);
+                                                                
+                                                                insert into orders (product_name, product_price, quantity)
+                                                                values ('Ballons', 5, 300);
+                                                                
+                                                                insert into orders (product_name, product_price, quantity)
+                                                                values ('Water', 1, 1);
+                                                                
+                                                                insert into orders (product_name, product_price, quantity)
+                                                                values ('Child Slaves', 120, 156135);	*/
+                                                                
+                                                                /*--select sum(quantity) 
+                                                                --from orders
+                                                                
+                                                                --select sum(product_price)
+                                                                --from orders
+                                                                
+                                                                --select sum(quantity * product_price)
+                                                                --from orders 
+                                                                --where person_id = 2
+                                                                
+                                                                /*	insert into artist (Name)
+                                                                values ('Ryan');
+                                                                insert into artist (Name)
+                                                                values ('YaBoi');
+                                                                insert into artist (Name)
+                                                                values ('lil cool cool pump');	*/
+                                                                
+                                                                /*--select * 
+                                                                --from artist
+                                                                
+                                                                --select *
+                                                                --from artist
+                                                                --order by Name desc 
+                                                                --limit 10
+                                                                
+                                                            --    select * from artist order by Name limit 5
+                                                            --	select * from artist where Name like 'Black%'
+                                                                --select * from artist where name like '%Black%'
+                                                                
+                                                            --    select firstname, lastname from employee where city = 'Calgary';
+                                                            --select firstname, lastname, birthdate from employee order by birthdate limit 1
+                                                            --select firstname, lastname, birthdate from employee order by birthdate desc limit 1
+                                                            --select * from employee where reportsto = 2
+                                                            --select * from employee
+                                                            --select count(*) from employee where city = 'Lethbridge'
+
+                                                            --select count(*) from invoice where billingcountry = 'USA'
+                                                            --select * from invoice order by total desc limit 1
+                                                            --select * from invoice order by total limit 1
+                                                            --select * from invoice where total > 5
+                                                            --select * from invoice where total < 5
+                                                            --select count(*) from invoice where billingstate in ('CA', 'TX', 'AZ') 
+                                                            --select avg(total) from invoice 
+                                                            --select sum(total) from invoice
+
+                                                                        
+
+
+
+
+                                                                
+                                                                to-do
        
     */
